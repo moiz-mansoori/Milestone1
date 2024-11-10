@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e0f7fa; /* Light cyan */
+}
+
+form {
+    margin: auto;
+    background-color: #e0ece4; /* Mint gray */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 128, 128, 0.2); /* Teal shadow */
+    padding: 25px;
+    max-width: 650px;
+}
+
+h1 {
+    text-align: center;
+    color: #006064; /* Teal */
+    font-weight: 700;
+}
+
+fieldset {
+    border: 2px dashed #00838f; /* Dark cyan dashed border */
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: #e3f2fd; /* Light blue */
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #004d40; /* Dark teal */
+    font-size: 1.2em;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    color: #00796b; /* Sea green */
+    font-size: 1.1em;
+}
+
+input,
+textarea {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #004d40; /* Dark teal border */
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* Pure white */
+    transition: border-color 0.2s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #00796b; /* Sea green focus color */
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #00796b; /* Sea green */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 128, 128, 0.2); /* Teal shadow */
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Verdana', sans-serif;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+#resume-display {
+    max-width: 650px;
+    margin: auto;
+    padding: 25px;
+    border: 2px dashed #00838f; /* Matching form border */
+    border-radius: 12px;
+    background-color: #e0ece4; /* Mint gray */
+    box-shadow: 0 6px 12px rgba(0, 128, 128, 0.2);
+}
+
+#resume-display h2 {
+    color: #006064; /* Teal */
+    font-weight: bold;
+    text-align: center;
+}

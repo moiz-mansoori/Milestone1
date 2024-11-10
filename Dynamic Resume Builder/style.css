@@ -1,0 +1,83 @@
+body {
+    font-family: 'Verdana', Geneva, sans-serif;
+    margin: 30px;
+    padding: 0;
+    background-color: #e6f7ff; /* Light Blue Background */
+}
+
+form {
+    margin: auto;
+    background-color: #f7fcff; /* Soft White Background */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 650px;
+}
+
+h1 {
+    text-align: center;
+    color: #003366; /* Dark Blue */
+}
+
+fieldset {
+    border: 3px dashed #80bfff; /* Dashed Light Blue Border */
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: #ffffff; /* White Background */
+}
+
+legend {
+    font-weight: 700;
+    text-align: left;
+    color: #005580; /* Deep Blue */
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    color: #00264d; /* Very Dark Blue */
+}
+
+input, textarea {
+    margin-top: 6px;
+    padding: 10px;
+    width: calc(100% - 2px);
+    border: 2px solid #80bfff; /* Light Blue Border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #e6f2ff; /* Very Light Blue */
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #0073e6; /* Bright Blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 12px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    padding: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0059b3; /* Darker Blue on Hover */
+}
+
+#resume-display {
+    max-width: 650px;
+    margin: auto;
+    padding: 25px;
+    border: 3px solid #80bfff; /* Light Blue Solid Border */
+    border-radius: 12px;
+    background-color: #f7fcff; /* Soft White Background */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#resume-display h2 {
+    color: #003366; /* Dark Blue */
+}
